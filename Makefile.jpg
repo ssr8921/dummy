@@ -1,0 +1,8 @@
+client: tcpclient.c
+	gcc -w tcpclient.c -o client -lcrypto
+
+server: tcpserver.c
+	gcc -w tcpserver.c -o server -lcrypto
+
+clean:
+	rm server client
