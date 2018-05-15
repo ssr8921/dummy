@@ -30,7 +30,7 @@ int main(int argc, char **argv) {
     char *hostname;
     char *buf;
     buf = (char*)malloc(sizeof(char)*BUFSIZE);
-    /*char buf[BUFSIZE];*/
+    ///char buf[BUFSIZE];
     char filename[BUFSIZE];
     FILE *fd;
     int filesize, x;
